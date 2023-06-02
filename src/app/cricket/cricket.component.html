@@ -1,0 +1,61 @@
+<div class="container-fluid  h-auto d-flex w-100">
+    <app-sidebar class="mt-2  aside-bar"></app-sidebar>
+    <div class="row right-sec  w-75 d-flex justify-content-end">
+        <div class="container-fluid  h-auto d-flex w-100">
+            <div class="row right-sec  w-100 d-flex justify-content-end">
+                <div class="right-row-one bg-white col-lg-11 col-md-11 col-sm-12  mt-2  ">
+                    <div class="col-md-12 col-sm-12 w-100 ">
+                        <span class="fs-5 fw-bold mx-2 ">Cricket ({{cricket.length}})</span>
+                     </div>
+                     <ul class="row p-2 border-bottom border-2" *ngFor="let data of cricket">
+                         <li class="col-md-12 d-flex justify-content-between">
+                             <div>
+                                 <i [class]="data.star" aria-hidden="true"></i>
+                                 <span>{{data.titlename}}</span>
+                             </div>
+                             <div class="d-flex justify-content-between  rightplay">
+                                 <div class="fs-6 fw-medium text-secondary">
+                                     <span class="mx-3">{{data.spanone}}</span>
+                                     <span class="ml-2">{{data.spantwo}}</span>
+                                 </div>
+                                 <div>
+                                     <i [class]="data.play" aria-hidden="true"></i>
+                                 </div>
+                             </div>
+                         </li>
+                     </ul>
+                </div>
+                 <div class="right-row-one bg-white col-lg-11 col-md-11 col-sm-12  mt-2  ">
+                    <div class="col-md-12 col-sm-12 w-100 ">
+                        <span class="fs-6 fw-bold mx-2 ">Competitions</span>
+                     </div>
+                    <ul class="row p-2 border-bottom border-2" *ngFor="let data of competition">
+                        <li class="col-md-12 d-flex justify-content-between">
+                            <div>
+                                <i [class]="data.star" aria-hidden="true"></i>
+                                <span>{{data.titlename}}</span>
+                            </div>
+                            <div class="d-flex justify-content-between  rightplay">
+                                <div class="fs-6 fw-medium text-secondary">
+                                    <span class="mx-3">{{data.spanone}}</span>
+                                    <span class="ml-2">{{data.spantwo}}</span>
+                                </div>
+                                <div>
+                                    <i [class]="data.play" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+               </div>
+            </div>
+        </div>
+        
+        <div class="right-row-one col-lg-11 col-md-11 col-sm-12  mt-2 mb-4  ">
+            <app-topcards></app-topcards>
+        </div>
+        <div class="col-md-11 mid-card-con mt-2">
+                <app-midcard></app-midcard>
+            </div>
+        
+    </div>
+</div>

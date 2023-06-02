@@ -1,0 +1,25 @@
+.container-fluid{
+
+    width: 65.5%;
+    margin-right: 251px;
+}
+
+/* .card-row{
+max-width: 100%;
+max-height: 100%;
+} */
+/* .main-card-con{
+    height: 46vh;
+} */
+.card-row {
+    margin-left: -0.625rem;
+    margin-right: -0.625rem;
+  }
+  
+  .card-main {
+    padding-left: 0.125rem;
+    padding-right: 0.125rem;
+  }
+  
+
+  

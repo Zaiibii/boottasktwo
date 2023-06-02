@@ -1,0 +1,21 @@
+.orange{
+    padding: 0px 7px;
+    border-radius: 30rem;
+    height: 3.5vh;  
+}
+
+.rightplay{
+    width: 7.5rem;
+}
+.container-fluid{
+    width: 91%;
+    margin-right: 0;
+}
+
+@media screen and (max-width:768px){
+    .container-fluid{
+        width: 100% !important;
+
+       
+    }
+}

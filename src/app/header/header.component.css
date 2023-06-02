@@ -1,0 +1,58 @@
+.date-list ul .nav-item span{
+  font-size: .7rem !important;
+  font-family: Arial,sans-serif;
+}
+.myinput:focus {
+    outline: 1px solid rgb(255, 255, 255); /* Customize the outline color and style as desired */
+  }
+
+  .nav-btm-con{
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / .1), 0 2px 4px -2px rgb(0 0 0 / .1);;
+  }
+  .nav-btm-con a:hover{
+    color: rgb(50, 136, 227)!important;
+  }
+
+  .nav-btm-con a:active{
+    border-bottom: 1px solid black;
+  }
+  .nav-btm-con a:active{
+    border-bottom: 1px solid black;
+  }
+
+aside{
+  display: none;
+}
+  .menu-button{
+    display: none;
+  }
+
+ 
+  @media screen and (max-width:767px){
+    .search-container{
+      display: none;
+    }
+    .menu-button{
+      display: flex;
+      position: relative;
+      bottom: 9px;
+    right: 7px;
+    }
+    aside{
+      display: block;
+    }
+     .custom-offcanvas {
+    width: 100px; /* Adjust the width as per your requirement */
+  }
+  .nav-btm-con{
+    display: none;
+  }
+  .date-list{
+    display: none;
+  }
+  }
+
+  .nav-btm-item-list .active {
+    border-bottom: 2px solid #000;
+  }
+  

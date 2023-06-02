@@ -1,0 +1,21 @@
+<!-- <div class="container-fluid  mt-2 mb-2"> -->
+    <div class="row mt-2">
+        <div class="col-md-12 w-100 bg-light text-dark fs-4">
+            Casino
+        </div> 
+    </div>
+    <div class="row flex-nowrap mt-2">
+        <div class="col-12-md main-card-con ">
+            <div class="row  card-row overflow-x-scroll flex-nowrap" >
+                <div class="col-lg-3 col-md-4 col-sm-3 col-6 card-main "  *ngFor="let data of cardone">
+                    <div class="card-image">
+                        <img [src]="data.card" alt="" class="img-fluid" >
+                    </div>
+                    <div class="card-image mt-1" >    
+                        <img [src]="data.card2" alt=""  class="img-fluid"  >
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- </div> -->
